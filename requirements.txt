@@ -1,0 +1,11 @@
+pygame
+opencv-python
+dlib
+torch
+torchvision
+sounddevice
+numpy
+pandas
+ultralytics
+xlsxwriter
+matplotlib
