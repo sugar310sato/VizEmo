@@ -37,7 +37,7 @@ class Boid:
         cohesion = self.cohere(boids, params['attraction_radius'])
         
         separation *= params['repulsion_force']
-        alignment *= params['attraction_force'] # alignmentとcohesionで同じ係数を使用
+        alignment *= params['attraction_force']
         cohesion *= params['attraction_force']
         
         self.apply_force(separation)
